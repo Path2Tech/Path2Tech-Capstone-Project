@@ -1,38 +1,184 @@
-.App {
-  text-align: center;
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  min-height: 100vh;
+}
+
+.app > *:not(footer) {
+  flex: 1;
+}
+
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  color: #1E1E1E;
+}
+
+
+
+
+
+
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  color: #1E1E1E;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 48px;
+  word-wrap: break-word;
+}
+
+.find-us {
+  width: 137.63px;
+  height: 46.27px;
+  left: 84.05px;
+  top: 0;
+  font-size: 32px;
+}
+
+.follow-us {
+  width: 176.50px;
+  height: 46.27px;
+  left: 645.06px;
+  top: 0;
+  font-size: 32px;
+}
+
+.sign-up {
+  width: 137.63px;
+  height: 46.27px;
+  left: 1243.89px;
+  top: 0;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.icon-container {
+  width: 87.20px;
+  height: 80.01px;
+  padding: 8.64px 2.79px 11.52px 2.88px;
+  left: 689.18px;
+  top: 36.08px;
+  position: absolute;
+  display: inline-flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.icon {
+  width: 81.53px;
+  height: 59.85px;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon-background {
+  width: 81.53px;
+  height: 59.85px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: black;
+  border: 0.17px solid black;
+}
+
+.icon-detail {
+  width: 2px;
+  height: 1.83px;
+  left: 28.95px;
+  top: 27.18px;
+  position: absolute;
+  background: black;
+  border: 0.17px solid black;
+}
+
+.discount {
+  width: 201.71px;
+  height: 34.70px;
+  left: 1243.89px;
+  top: 55.63px;
+  font-size: 24px;
+  font-family: 'Figma Hand', cursive;
+  font-weight: 400;
+  line-height: 36px;
+  word-wrap: break-word;
+}
+
+.address {
+  width: 380.31px;
+  height: 28.92px;
+  left: 0;
+  top: 55.10px;
+  font-size: 20px;
+  font-family: 'Figma Hand', cursive;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+.help {
+  width: 78.79px;
+  height: 46.27px;
+  left: 437.04px;
+  top: 246.78px;
+  font-size: 32px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  line-height: 48px;
+  word-wrap: break-word;
+}
+
+.about-us {
+  width: 156.54px;
+  height: 46.27px;
+  left: 941.32px;
+  top: 246.78px;
+  font-size: 32px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  line-height: 48px;
+  word-wrap: break-word;
+}
+
+.faq {
+  width: 152.33px;
+  height: 92.54px;
+  left: 413.93px;
+  top: 299.43px;
+  font-size: 16px;
+  font-family: 'Figma Hand', cursive;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.our-story {
+  width: 155.49px;
+  height: 69.41px;
+  left: 942.37px;
+  top: 299.43px;
+  font-size: 16px;
+  font-family: 'Figma Hand', cursive;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
 }
