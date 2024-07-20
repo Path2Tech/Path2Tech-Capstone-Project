@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import Footers from './components./footer.js'; 
-
-
+import Footers from './components/footer.js'; 
 
 
 function App() {
