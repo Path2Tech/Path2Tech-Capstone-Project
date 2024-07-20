@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import About from './components/about'
+import About from './components/About'
 import {Routes,Route} from 'react-router-dom'
 // Step four, import routes, route
-import Landing from './components/landing';
-import Header from './components/header';
-import Footer from './components/footer';
+import Landing from './components/Landing';
+import Header from './components/Header';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">

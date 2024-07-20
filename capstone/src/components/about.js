@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './header';
-import Footer from './footer';
+import Header from './Header';
+import Footer from './Footer';
 import './about.css';
 import mom from './assets/mom.jpg';
 
