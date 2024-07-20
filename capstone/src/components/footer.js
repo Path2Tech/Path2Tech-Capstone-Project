@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css';
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -37,7 +38,8 @@ const Footer = () => {
         </div>
 
         <div className="footer-group group-about-us">
-          <div><span className="first-word">About Us</span></div>
+          <div><span className="first-word"><Link to ='/about'>About Us</Link></span></div>
+          {/* Example of 7b */}
           <div>
             Our Story <br />
             Accessibility<br />
