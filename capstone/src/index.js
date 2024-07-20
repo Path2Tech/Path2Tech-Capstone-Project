@@ -3,14 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './App.css';
-import './components/about.css';
-import './components/footer.css';
+import {BrowserRouter as Router} from 'react-router-dom' 
+// Step 1 install react router dom in terminal, npm i react-router-dom + Step 2: import react router dom above, line 6
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* Step 3: wrap app with router, go to App.js now */}
+    <Router> 
+     <App />
+    </Router>
+    
   </React.StrictMode>
 );
 
@@ -18,3 +23,5 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+// root of the whole project. react create to html
