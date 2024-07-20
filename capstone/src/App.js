@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import Footers from './components/footer.js'; 
-
+import About from './components/about'
 
 function App() {
   return (
-    <div>
-      <Footers />
+    <div className="App">
+      <About />
     </div>
   );
 }

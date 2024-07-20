@@ -1,36 +1,52 @@
-
 import React from 'react';
 import './footer.css';
 
-const Footers = () => {
+const Footer = () => {
   return (
-    <div className="container">
-      <div className="absolute find-us">Find Us</div>
-      <div className="absolute follow-us">Follow Us</div>
-      <div className="absolute sign-up">Sign Up</div>
-      <div className="icon-container">
-        <div className="icon">
-          <div className="icon-background"></div>
-          <div className="icon-detail"></div>
+    <div className="footer-container">
+      <div className="footer-row">
+        <div className="footer-group group-find-us-address">
+          <div><span className="first-word">Find Us </span> </div>
+          <div>123 Wish Lane
+            <br/> Dreamland, TX 77587</div>
+        </div>
+        <div className="footer-group group-follow-us-logo">
+          <div><span className="first-word">Follow Us</span></div>
+          <div className="icon-container">
+            <div className="icon">
+              <div className="icon-background"></div>
+              <div className="icon-detail"></div>
+            </div>
+          </div>
+        </div>
+        <div className="footer-group group-signup-discount">
+          <div><span className="first-word">Sign Up</span> </div>
+          <div> Discount 15% Off</div>
         </div>
       </div>
-      <div className="absolute discount">15% Off</div>
-      <div className="absolute address">123 Wish Lane, Dreamland, TX</div>
-      <div className="absolute help">Help</div>
-      <div className="absolute about-us">About Us</div>
-      <div className="absolute faq">
-        FAQ<br/>Size Chart<br/>Contact Us<br/>Return Policy
-      </div>
-      <div className="absolute our-story">
-        Our Story<br/>Accessibility<br/>Privacy Policy
-      </div>
-      <div style={{width: '100%', height: '100%', background: 'white'}}></div>
 
+      <div className="footer-row">
+        <div className="footer-group group-help-faq">
+          <div><span className="first-word">Help</span></div>
+          <div>
+            FAQ<br />
+            Size Chart<br />
+            Contact Us<br />
+            Return Policy
+          </div>
+        </div>
+
+        <div className="footer-group group-about-us">
+          <div><span className="first-word">About Us</span></div>
+          <div>
+            Our Story <br />
+            Accessibility<br />
+            Privacy Policy
+          </div>
+        </div>
+      </div>
     </div>
-   
   );
-
-
-
 }
-export default Footers;
+
+export default Footer;
