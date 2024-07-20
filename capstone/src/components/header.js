@@ -1,18 +1,23 @@
 import React from 'react';
 import './header.css';
+import { NavLink, Link} from 'react-router-dom';
+// Step 6 imported above for nav bar
 
 const Header = () => {
   return (
     <header>
       <div className="container">
         <div className="logo">
-          <a href="index.html">Maternity Muse</a>
+            <NavLink to='/'>Maternity Muse</NavLink>
+          {/* Step 7a converted html link to nav link for logo, this is the reference <a href="index.html">Maternity Muse</a> */}
         </div>
         <nav>
           <ul className="nav-links">
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="order.html">Order</a></li>
+            {/* Step 7b {links would be here, syntax: 
+            <Link to ='insert link name here'>Page Name</Link> */}
             <li><a href="login.html">Login</a></li>
+            <li><a href="shop.html">Shop</a></li> 
+            <li><a href="order.html">Account</a></li>
           </ul>
         </nav>
         <div className="search-login">
