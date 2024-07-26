@@ -1,11 +1,11 @@
 import React from 'react';
-import './header.css';
+import './Header.css';
 import { NavLink, Link} from 'react-router-dom';
 // Step 6 imported above for nav bar
 
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <div className="container">
         <div className="logo">
             <NavLink to='/'>Maternity Muse</NavLink>
@@ -15,9 +15,10 @@ const Header = () => {
           <ul className="nav-links">
             {/* Step 7b {links would be here, syntax: 
             <Link to ='insert link name here'>Page Name</Link> */}
-            <li><a href="login.html">Login</a></li>
+            {/* <li><a href="login.html">Login</a></li> */}
+            <Link to ='/login'>Login</Link>
             <li><a href="shop.html">Shop</a></li> 
-            <li><a href="order.html">Account</a></li>
+            {/* <li><a href="order.html">Account</a></li> */}
           </ul>
         </nav>
         <div className="search-login">

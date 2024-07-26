@@ -1,15 +1,16 @@
 import React from 'react';
-import './footer.css';
-import {Link} from 'react-router-dom'
+import './Footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
-  return (
-    <div className="footer-container">
-      <div className="footer-row">
+
+    return (
+      <div className="footer-container">
         <div className="footer-group group-find-us-address">
-          <div><span className="first-word">Find Us </span> </div>
+          <div><span className="first-word">Find Us</span></div>
           <div>123 Wish Lane
-            <br/> Dreamland, TX 77587</div>
+            <br /> Dreamland, TX 77587
+          </div>
         </div>
         <div className="footer-group group-follow-us-logo">
           <div><span className="first-word">Follow Us</span></div>
@@ -21,12 +22,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-group group-signup-discount">
-          <div><span className="first-word">Sign Up</span> </div>
+          <div><span className="first-word"><Link to='/signup'>Sign Up</Link></span></div>
           <div> Discount 15% Off</div>
         </div>
-      </div>
-
-      <div className="footer-row">
         <div className="footer-group group-help-faq">
           <div><span className="first-word">Help</span></div>
           <div>
@@ -36,10 +34,8 @@ const Footer = () => {
             Return Policy
           </div>
         </div>
-
         <div className="footer-group group-about-us">
-          <div><span className="first-word"><Link to ='/about'>About Us</Link></span></div>
-          {/* Example of 7b */}
+          <div><span className="first-word"><Link to='/about'>About Us</Link></span></div>
           <div>
             Our Story <br />
             Accessibility<br />
@@ -47,8 +43,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
-}
-
-export default Footer;
+    );
+  }
+  
+  export default Footer; 
