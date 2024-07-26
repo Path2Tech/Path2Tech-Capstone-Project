@@ -1,6 +1,7 @@
 import React from "react";
 import "./SignUp.css";
 import booties from "./assets/booties.jpg";
+import { Link } from "react-router-dom";
 
 const SignUp = () => {
   return (
@@ -9,7 +10,7 @@ const SignUp = () => {
     <div className="Container">
       <div className="SignUp">Sign Up</div>
       <div className="Text">
-       Already have an account? Click the link to log in. 
+       Already have an account? Click the link to <Link to ='/Login' >log in</Link>.
       </div>
 
       <div className="Enter">

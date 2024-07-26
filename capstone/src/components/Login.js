@@ -1,6 +1,7 @@
 import React from "react";
 import "./Login.css";
 import belly from "./assets/belly.jpg";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -9,8 +10,9 @@ const Login = () => {
     <div className="Container">
       <div className="Login">Login</div>
       <div className="Text">
-        Don't have an account? Click the link to sign up.
+        Don't have an account? Click the link <Link to='/SignUp'>sign up</Link>.
       </div>
+  
 
       <div className="Enter">
         <div className="Field">
