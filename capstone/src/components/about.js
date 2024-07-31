@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from './header';
-import Footer from './footer';
-import './about.css';
+
+
+import './About.css';
 import mom from './assets/mom.jpg';
 
 const About = () => {
   return (
     <>
-      <Header />
+     
       <div className="main-content">
         <div className="text-content">
           <h1 className="about">About</h1>
@@ -20,7 +20,7 @@ const About = () => {
           <img className="img" src={mom} alt="pregnancy" />
         </div>
       </div>
-      <Footer />
+      
     </>
   );
 }
