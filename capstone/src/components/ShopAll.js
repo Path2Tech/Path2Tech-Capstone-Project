@@ -6,7 +6,7 @@ const ShopAll = () => {
     const [products, setProducts] = useState([]);
     
     useEffect(() => {
-        // Replace this with a real API call
+        
         fetch('/Products.json')
             .then(response => response.json())
             .then(data => setProducts(data))
