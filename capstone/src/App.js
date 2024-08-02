@@ -1,13 +1,14 @@
 import React from 'react';
-import './App.css';
-import About from './components/About';
 import {Routes,Route} from 'react-router-dom';
 // Step four, import routes, route
+import './App.css';
+import About from './components/About';
 import Landing from './components/Landing';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
+import ShopAll from './components/ShopAll';
 
 function App() {
   return (
@@ -25,14 +26,12 @@ function App() {
       <Route path='/' element ={<Landing/>} />
       <Route path='/login' element={<Login/>}/>
       <Route path='/signup' element={<SignUp/>}/>
-
+      <Route path='/Shop-all'element={<ShopAll/>} />
      
      </Routes>
 
     
-     <Footer className="Footer"/>
-    
-    
+     <Footer className="Footer"/> 
     </div>
   
     </>

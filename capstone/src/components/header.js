@@ -3,6 +3,7 @@ import './Header.css';
 import { NavLink, Link} from 'react-router-dom';
 // Step 6 imported above for nav bar
 
+
 const Header = () => {
   return (
     <header className="header">
@@ -17,7 +18,7 @@ const Header = () => {
             <Link to ='insert link name here'>Page Name</Link> */}
             {/* <li><a href="login.html">Login</a></li> */}
             <Link to ='/login'>Login</Link>
-            <li><a href="shop.html">Shop</a></li> 
+            <li><a href="shop.html">Shop-All</a></li> 
             {/* <li><a href="order.html">Account</a></li> */}
           </ul>
         </nav>
