@@ -1,0 +1,23 @@
+.main {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cta {
+    margin-top: 20px;
+  }
+  
+  .cta a {
+    text-decoration: none;
+    color: white;
+    background-color: #fff7f6;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
