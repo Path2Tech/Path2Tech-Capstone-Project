@@ -18,7 +18,8 @@ const Header = () => {
             <Link to ='insert link name here'>Page Name</Link> */}
             {/* <li><a href="login.html">Login</a></li> */}
             <Link to ='/login'>Login</Link>
-            <li><a href="shop.html">Shop-All</a></li> 
+            <Link to ='/shop-all'>Shop All</Link>
+            {/* <li><a href="shop.html">Shop-All</a></li>  */}
             {/* <li><a href="order.html">Account</a></li> */}
           </ul>
         </nav>
