@@ -12,9 +12,7 @@ import ShopAll from './components/ShopAll';
 
 function App() {
   return (
-    <>
-    <div className="App">
-      
+    <div className= "App">
       <Header/>
 
 
@@ -34,7 +32,7 @@ function App() {
      <Footer className="Footer"/> 
     </div>
   
-    </>
+  
   );
 }
 

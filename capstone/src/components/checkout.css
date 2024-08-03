@@ -1,0 +1,132 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 20px;
+    background-color: #fff1f2;
+    border: 1px solid #fca5a5;
+    border-radius: 1rem;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1420px;
+  }
+  
+  .title {
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1c1917;
+    flex: 1;
+  }
+  
+  .images {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+  }
+  
+  .image-small {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+  }
+  
+  .sub-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+    width: 100%;
+    max-width: 1219px;
+  }
+  
+  .sub-header-item {
+    display: flex;
+    align-items: center;
+    gap: 0.875rem;
+  }
+  
+  .shopping-icon {
+    width: 2.25rem;
+    height: 2.25rem;
+    object-fit: cover;
+  }
+  
+  .shopping-text {
+    font-size: 1.5rem;
+  }
+  
+  .checkout-title {
+    font-size: 4rem;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .express-checkout {
+    margin-top: 10rem;
+    font-size: 3rem;
+    color: #71717a;
+  }
+  
+  .or {
+    margin-top: 20rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .review-delivery-payment {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-top: 7rem;
+    width: 100%;
+    max-width: 1324px;
+  }
+  
+  .review, .delivery, .payment {
+    font-size: 2.5rem;
+    text-decoration: underline;
+  }
+  
+  .icon {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .email {
+    margin-top: 4rem;
+    font-size: 2rem;
+  }
+  
+  .item-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    width: 345px;
+  }
+  
+  .item-info {
+    font-size: 1.5rem;
+  }
+  
+  .item-name {
+    font-size: 2rem;
+  }
+  
+  .additional-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    width: 1268px;
+  }
+  
+  .telephone {
+    flex: 1;
+  }
+  
+  .gift {
+    display: flex;
+  }
