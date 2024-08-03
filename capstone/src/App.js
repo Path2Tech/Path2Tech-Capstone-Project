@@ -1,11 +1,15 @@
 import React from 'react';
-import './App.css';
-import About from './components/about'
-import {Routes,Route} from 'react-router-dom'
+import {Routes,Route} from 'react-router-dom';
 // Step four, import routes, route
-import Landing from './components/landing';
-import Header from './components/header';
-import Footer from './components/footer';
+import './App.css';
+import About from './components/About';
+import Landing from './components/Landing';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Login from './components/Login';
+import SignUp from './components/SignUp';
+import ShopAll from './components/ShopAll';
+
 function App() {
   return (
     <div className= "App">
@@ -17,22 +21,20 @@ function App() {
       <Routes>
      
       <Route path='/about' element = {<About/>} />
-      <Route path='/' element ={<Landing/>} />
-
+      <Route path='/landing' element ={<Landing/>} />
+      <Route path='/login' element={<Login/>}/>
+      <Route path='/signup' element={<SignUp/>}/>
+      <Route path='/shop-all'element={<ShopAll/>} />
      
-      </Routes>
+     </Routes>
 
-
-     <Footer/>
-      
+    
+     <Footer className="Footer"/> 
     </div>
+  
+  
   );
 }
 
 export default App;
-{/* <Routes>
-     
-<Route path='' element = {} />
 
-
-</Routes> */}
