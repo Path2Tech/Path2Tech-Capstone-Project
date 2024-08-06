@@ -1,28 +1,21 @@
-import React, { useState, useEffect } from 'react';
-import Product from './Product'; //Corrected path
-import './ShopAll.css'; // Create and style this CSS file as needed
+import React from 'react';
+import ProductList from './ProductList'; //Corrected path
+import './ShopAll.css'; // Create and style this CSS file
+
 
 const ShopAll = () => {
-    const [products, setProducts] = useState([]);
-    
-    useEffect(() => {
-        
-        fetch('/Products.json')
-            .then(response => response.json())
-            .then(data => setProducts(data))
-            .catch(error => console.error('Error fetching the Products:', error));
-      }, []);
-
-      return (
-            <div className="Shop-All">
-            {products.map(product => (
-                  <Product key={product.id}
-                  product={product} />
-
-           ))}
-       </div>
-    );
-}
+    return (
+        <div>
+            <main>
+                <section className="shop-all">
+                    <h1>Shop All</h1>
+                    <p>12 Products</p>
+                    <ProductList />
+                </section>
+            </main>
+         </div>
+    );  
+};
 
 export default ShopAll;
 

@@ -9,7 +9,7 @@ const Landing = () => {
       <div className="cta">
         <a href="#">Shop Now</a>
       </div>
-      <img 
+      <img
         src="https://images.squarespace-cdn.com/content/v1/5d59e092100bdf0001aa1a80/1679029014484-PHGC9RUWFU4944S70TZ6/AdobeStock_564935733.jpeg?format=1500w" 
         alt="Maternity Image" 
       />
