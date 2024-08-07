@@ -15,7 +15,7 @@ import './ProductList.css';
         { id: 10, name: 'The Little Black Dress', price: '$38', colors: 'black', imageUrl: 'littleblackdress.jpg'},
         { id: 11, name: 'Sports Mode', price: '$25', colors: 'cream', imageUrl: 'sunshine.jpg'},
         { id: 12, name: 'Wonderer', price: '$78', colors: 'off white', imageUrl: 'formaldress.jpg'},
-        // Add more products here
+        // Add more products if needed
       ];
       
       const ProductList = () => {
