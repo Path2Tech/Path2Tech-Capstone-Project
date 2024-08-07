@@ -1,15 +1,17 @@
 import React from 'react';
 import './Product.css';
 
-const Product = ({ product }) => {
+const Product = ({ name, price, colors, imageUrl }) => {
     return (
-        <div className="product-card">
-            <img src={product.image} alt={product.name} className="product-image"/>
-            <h2 className="product-name">{product.name}</h2>
-            <p className="product-description">{product.description}</p>
-            <p className="product-price">$
-            {product.price}</p>
+        <div className="product">
+            <div className="img-placeholder">
+                <img src={imageUrl} alt={name} />
+            </div>
+        <p>{name}</p>
+        <p>{price}</p>
+        <p>{colors}</p>
         </div>
+
     );
 };
 export default Product;
