@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import ig from './assets/ig.png';
 
 const Footer = () => {
 
@@ -15,12 +16,11 @@ const Footer = () => {
         <div className="footer-group group-follow-us-logo">
           <div><span className="first-word">Follow Us</span></div>
           <div className="icon-container">
-            <div className="icon">
-              <div className="icon-background"></div>
+          <img className="icon" src={ig} alt="instagram" />
               <div className="icon-detail"></div>
-            </div>
-          </div>
-        </div>
+              </div>
+      </div>
+
         <div className="footer-group group-signup-discount">
           <div><span className="first-word"><Link to='/signup'>Sign Up</Link></span></div>
           <div> Discount 15% Off</div>
