@@ -3,8 +3,8 @@
     
     padding: 10px 0;
     width: 100vw;
-    height: 20vh; 
-    box-sizing: border-box;
+    height: 40vh; 
+    /* box-sizing: border-box; */
     
     /* very parent does not use percentages */
     }
@@ -19,8 +19,8 @@
     padding: 0 20px;
     width: 100%;
     height:100%;
-    box-sizing: border-box;
-    background-color: white;
+    /* box-sizing: border-box; */
+    background-color: rgb(255, 255, 255);
   }
   
   .logo a {
@@ -103,8 +103,8 @@
   
   .login-button {
     padding: 5px 10px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 1px solid #3331317f;
+    color: #0b0b0b;
     text-decoration: none;
     border-radius: 5px;
     transition: background 0.3s, color 0.3s;

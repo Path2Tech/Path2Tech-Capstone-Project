@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './header.css';
 import { NavLink, Link} from 'react-router-dom';
 // Step 6 imported above for nav bar
 
@@ -19,6 +19,7 @@ const Header = () => {
             {/* <li><a href="login.html">Login</a></li> */}
             <Link to ='/login'>Login</Link>
             <Link to ='/shop-all'>Shop All</Link>
+            <Link to ='/checkout'>Checkout</Link>
             {/* <li><a href="shop.html">Shop-All</a></li>  */}
             {/* <li><a href="order.html">Account</a></li> */}
           </ul>

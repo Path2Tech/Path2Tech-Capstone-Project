@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import './footer.css';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -16,8 +16,8 @@ const Footer = () => {
           <div><span className="first-word">Follow Us</span></div>
           <div className="icon-container">
             <div className="icon">
-              <div className="icon-background"></div>
-              <div className="icon-detail"></div>
+              {/* <div className="icon-background"></div> */}
+              {/* <div className="icon-detail"></div> */}
             </div>
           </div>
         </div>

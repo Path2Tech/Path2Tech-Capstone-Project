@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
 import ShopAll from './components/ShopAll';
+import Checkout from './components/Checkout';
 
 function App() {
   return (
@@ -21,11 +22,11 @@ function App() {
       <Routes>
      
       <Route path='/about' element = {<About/>} />
-      <Route path='/landing' element ={<Landing/>} />
+      <Route path='/' element ={<Landing/>} />
       <Route path='/login' element={<Login/>}/>
       <Route path='/signup' element={<SignUp/>}/>
       <Route path='/shop-all'element={<ShopAll/>} />
-     
+      <Route path='/checkout'element={<Checkout/>} />
      </Routes>
 
     

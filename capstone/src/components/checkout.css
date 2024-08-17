@@ -1,132 +1,301 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 14px 20px;
-    background-color: #fff1f2;
-    border: 1px solid #fca5a5;
-    border-radius: 1rem;
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff1f2;
+  border: 1px solid #fff1f2;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1c1917;
+}
+
+.images {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.image-small {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+}
+
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.sub-header-item {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.shopping-icon {
+  width: 2.25rem;
+  height: 2.25rem;
+  object-fit: cover;
+}
+
+.shopping-text {
+  font-size: 1.5rem;
+}
+
+.checkout-title {
+  font-size: 2.5rem;
+  text-align: center;
+  flex: 1;
+}
+
+.checkout-options {
+  text-align: center;
+  width: 100%;
+}
+
+.express-checkout, .or {
+  font-size: 2rem;
+  color: #71717a;
+  margin: 1.5rem 0;
+}
+
+.review-delivery-payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.review, .delivery, .payment {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.contact-info {
+  width: 100%;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.email {
+  font-size: 1.5rem;
+}
+
+.item-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.item-info {
+  font-size: 1.5rem;
+}
+
+.item-name {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+
+.additional-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.telephone {
+  flex: 1;
+  text-align: center;
+}
+
+.gift {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.image4 {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+}
+
+.order-summary {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.summary-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.summary-details {
+  font-size: 1.5rem;
+}
+
+.total-amount {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #1c1917;
+}
+ */
+
+ * {
+  /* box-sizing: border-box; */
+  margin: 10;
+  padding: 10;
+  font-family: Arial, sans-serif;
+}
+
+/* body {
+  background-color: #FFF7F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+/* .container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+} */
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.section h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-row .form-group {
+  width: 48%;
+}
+
+.order-summary {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.summary-item.total {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.checkout-button {
+  background-color: hsl(122, 39%, 49%);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.checkout-button:hover {
+  background-color: hsl(122, 49%, 59%);
+}
+
+@media (max-width: 480px) {
+  .container {
+      padding: 15px;
   }
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1420px;
+
+  .form-row {
+      flex-direction: column;
   }
-  
-  .title {
-    font-size: 6rem;
-    font-weight: bold;
-    text-align: center;
-    color: #1c1917;
-    flex: 1;
+
+  .form-row .form-group {
+      width: 100%;
+      margin-bottom: 15px;
   }
-  
-  .images {
-    display: flex;
-    gap: 1.25rem;
-    align-items: flex-start;
-  }
-  
-  .image-small {
-    width: 4rem;
-    height: 4rem;
-    object-fit: cover;
-  }
-  
-  .sub-header {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 6rem;
-    width: 100%;
-    max-width: 1219px;
-  }
-  
-  .sub-header-item {
-    display: flex;
-    align-items: center;
-    gap: 0.875rem;
-  }
-  
-  .shopping-icon {
-    width: 2.25rem;
-    height: 2.25rem;
-    object-fit: cover;
-  }
-  
-  .shopping-text {
-    font-size: 1.5rem;
-  }
-  
-  .checkout-title {
-    font-size: 4rem;
-    text-align: center;
-    flex: 1;
-  }
-  
-  .express-checkout {
-    margin-top: 10rem;
-    font-size: 3rem;
-    color: #71717a;
-  }
-  
-  .or {
-    margin-top: 20rem;
-    font-size: 3rem;
-    text-align: center;
-  }
-  
-  .review-delivery-payment {
-    display: flex;
-    align-items: center;
-    gap: 1.25rem;
-    margin-top: 7rem;
-    width: 100%;
-    max-width: 1324px;
-  }
-  
-  .review, .delivery, .payment {
-    font-size: 2.5rem;
-    text-decoration: underline;
-  }
-  
-  .icon {
-    width: 2rem;
-    height: 2rem;
-  }
-  
-  .email {
-    margin-top: 4rem;
-    font-size: 2rem;
-  }
-  
-  .item-details {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
-    width: 345px;
-  }
-  
-  .item-info {
-    font-size: 1.5rem;
-  }
-  
-  .item-name {
-    font-size: 2rem;
-  }
-  
-  .additional-details {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 3rem;
-    width: 1268px;
-  }
-  
-  .telephone {
-    flex: 1;
-  }
-  
-  .gift {
-    display: flex;
-  }
+}

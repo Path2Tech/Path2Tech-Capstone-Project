@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './about.css';
 import mom from './assets/mom.jpg';
 
 const About = () => {

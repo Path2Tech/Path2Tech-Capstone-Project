@@ -1,20 +1,26 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 100%;
+}
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  /* box-sizing: inherit; */
 }
 
 
 
 
-body, html {
+body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   font-family: Arial, sans-serif;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   background: #FFF7F6;
   display:flex;
   flex-direction:column;
